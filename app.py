@@ -1,7 +1,8 @@
 import math
 
 def calculate_volume_cone(radius,height):
-  volume = (1/3) * math.pi * (radius**2) * height
+
+  volume =  (math.pi * radius**2 * height)/3
   
   return volume
 
